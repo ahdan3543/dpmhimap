@@ -28,23 +28,12 @@ export const DUMMY_NEWS: News[] = [
     id: '3',
     slug: 'penghargaan-atlet-berprestasi',
     title: 'DPM Reward: Apresiasi Mahasiswa Atlet Berprestasi PKO',
-    excerpt: 'Pemberian penghargaan kepada mahasiswa PKO yang berhasil meraih medali di ajang Pekan Olahraga Mahasiswa Nasional.',
+    excerpt: 'Pemberian penghargaan kepada mahasiswa PKO yang berhasil meraih medali di ajang Pekan Olahraga Mahasional.',
     content: 'Sebagai bentuk dukungan terhadap prestasi non-akademik, DPM memberikan insentif dan piagam penghargaan kepada 10 atlet terbaik PKO. Ini adalah bagian dari komitmen kami dalam mengapresiasi bakat olahraga.',
     category: Category.REWARD,
     author: 'Komisi II',
     date: '2025-02-28',
     image: 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=2070'
-  },
-  {
-    id: '4',
-    slug: 'upgrading-kepemimpinan-2025',
-    title: 'Upgrading Kepemimpinan: Memperkuat Integritas Pengurus',
-    excerpt: 'Kegiatan internal untuk meningkatkan kapasitas kepemimpinan dan manajemen organisasi pengurus dewan.',
-    content: 'Kegiatan upgrading ini menghadirkan alumni dan praktisi organisasi untuk membekali pengurus dengan kemampuan negosiasi, tata kelola sidang, dan manajemen konflik.',
-    category: Category.KEGIATAN,
-    author: 'Biro PSDM',
-    date: '2025-03-05',
-    image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2070'
   }
 ];
 
@@ -67,33 +56,4 @@ export const DUMMY_AKD: AKD[] = [
       },
       { id: 'bph2', name: 'Raden Mas Fiqih Nawaal Fadilah', role: 'Wakil Ketua Umum', nim: '21060124', angkatan: '2021', prodi: 'PKO', instagram: 'fiqih_n' },
       { id: 'bph3', name: 'Gita Crysdiani', role: 'Sekretaris Umum', nim: '22060125', angkatan: '2022', prodi: 'PKO', instagram: 'gita_c' },
-      { id: 'bph4', name: 'Raihany Desi Putri', role: 'Sekretaris I', nim: '22060126', angkatan: '2022', prodi: 'PKO', instagram: 'raihanydp' },
-      { id: 'bph5', name: 'Karisma Ayu Wulandari', role: 'Bendahara Umum', nim: '21060127', angkatan: '2021', prodi: 'PKO', instagram: 'karisma_aw' },
-      { id: 'bph6', name: 'Fariz Nur Khazanah', role: 'Bendahara I', nim: '22060128', angkatan: '2022', prodi: 'PKO', instagram: 'fariz_nk' }
-    ]
-  },
-  {
-    id: 'akd-komisi',
-    name: 'Komisi',
-    description: 'Bertanggung jawab dalam menjalankan fungsi pengawasan dan aspirasi di lingkungan kemahasiswaan.',
-    members: [
-      { id: 'k-ketua', name: 'Ilham Maulana Rustandi', role: 'Ketua Komisi', nim: '21060129', angkatan: '2021', prodi: 'PKO', instagram: 'ilhammr' }
-    ]
-  },
-  {
-    id: 'akd-humas',
-    name: 'Biro Hubungan Masyarakat',
-    description: 'Menjembatani komunikasi antara dewan dengan mahasiswa.',
-    members: [
-      { id: 'h-ketua', name: 'Febriyansah', role: 'Ketua Biro', nim: '22060130', angkatan: '2022', prodi: 'PKO', instagram: 'febriyansah' }
-    ]
-  },
-  {
-    id: 'akd-psdm',
-    name: 'Biro PSDM',
-    description: 'Pengembangan sumber daya manusia dan harmonisasi internal.',
-    members: [
-      { id: 'p-ketua', name: 'Sintia Saridah Azhar', role: 'Ketua Biro', nim: '21060131', angkatan: '2021', prodi: 'PKO', instagram: 'sintia_sz' }
-    ]
-  }
-];
+      
